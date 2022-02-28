@@ -1,0 +1,5 @@
+
+<IfModule mod_rewrite.so>
+RewriteEngine On
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /individual3-rebelshadowrm/index.php?route=$1&type=$2&id=$3 [L]
+</IfModule>
