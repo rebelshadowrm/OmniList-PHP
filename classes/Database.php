@@ -2,11 +2,10 @@
 class Database {
   
     // specify your own database credentials
-    private $host = 'capitulate.net:3306';
-    private $db_name = 'OmniList';
-    private $username = 'capitulate';
-    //A friend set this db up for me a long time ago, I don't how to change this
-    private $password = 'pocketpussy';
+    private $host = '';
+    private $db_name = '';
+    private $username = '';
+    private $password = '';
     public $conn;
   
     function __construct() {
